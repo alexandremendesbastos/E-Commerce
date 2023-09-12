@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="../static/css/carrinho.css">
+
+</head>
+<body>
+    <header>
+        <h1>Carrinho de Compras</h1>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>Total</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Linhas da tabela para os itens no carrinho -->
+                <tr>
+                    <td>Produto 1</td>
+                    <td>R$ 50,00</td>
+                    <td>2</td>
+                    <td>R$ 100,00</td>
+                    <td>
+                        <button class="remover">Remover</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Produto 2</td>
+                    <td>R$ 30,00</td>
+                    <td>1</td>
+                    <td>R$ 30,00</td>
+                    <td>
+                        <button class="remover">Remover</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="total">
+            <p>Total do Carrinho: R$ 130,00</p>
+        </div>
+
+        <div class="acoes">
+            <button class="continuar-comprando">Continuar Comprando</button>
+            <button class="finalizar-compra">Finalizar Compra</button>
+        </div>
+    </main>
+</body>
+</html>

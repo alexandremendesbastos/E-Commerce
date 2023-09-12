@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adicionar Produto</title>
+    <link rel="stylesheet" href="../static/css/add.css">
+</head>
+<body>
+    <header>
+        <a href="/"><img src="./Captura_de_tela_2023-09-10_185144-removebg-preview.png" class="logo"></a>
+    </header>
+
+    <div class="container">
+        <h1>Adicionar Produto</h1>
+        <form method="POST" action="/inserir">
+            <label for="product-id">ID:</label>
+            <input type="text" id="product-id" name="id" required><br>
+        
+            <label for="product-name">Nome:</label>
+            <input type="text" id="product-name" name="nome" required><br>
+        
+            <label for="product-image">Link da Imagem:</label>
+            <input type="text" id="product-image" name="link_da_imagem" required><br>
+
+            <label for="product-link">Link Produto:</label>
+            <input type="text" id="product-link" name="link_do_produto" step="0.01" required><br>
+
+            <label for="product-price">Preço:</label>
+            <input type="number" id="product-price" name="preco" step="0.01" required><br>
+
+            <button type="submit">Adicionar Produto</button>
+        </form>
+        
+    </div>
+</body>
+</html>
