@@ -1,5 +1,3 @@
-markdown
-Copy code
 # E-Commerce Web App
 
 Este é um projeto de aplicativo da web de e-commerce construído com Flask. Antes de iniciar o projeto, siga as instruções abaixo para configurar o banco de dados necessário.
