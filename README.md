@@ -15,7 +15,7 @@ Antes de iniciar o aplicativo, é necessário configurar o banco de dados que ar
 3. Execute o seguinte comando para criar o banco de dados e as tabelas necessárias:
 python BD.py
 
-Isso criará o banco de dados chamado `ecommerce` e as tabelas `produtos` e `usuario`. Certifique-se de que as configurações do MySQL em `BD.py` estejam corretas (host, usuário e senha).
+  Isso criará o banco de dados chamado `ecommerce` e as tabelas `produtos` e `usuario`.   Certifique-se de que as configurações do MySQL em `BD.py` estejam corretas (host, usuário e senha).
 
 4. Após a execução bem-sucedida do script `BD.py`, o banco de dados estará pronto para uso pelo aplicativo.
 
